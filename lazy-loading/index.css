@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    width: 600px;
+}
+
+main::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+img {
+    /*图片有间距，需要用float来清除*/
+    width: 200px;
+    height: 200px;
+    float: left;
+}
